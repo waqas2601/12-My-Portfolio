@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+/* custom CSS variables for theme */
+:root {
+  --bg: #f8fafc; /* background */
+  --surface: #ffffff; /* cards */
+  --primary: #0ea5a4; /* teal */
+  --secondary: #7c3aed; /* violet */
+  --muted: #4b5563;
+  --strong: #0f172a;
+}
+
+/* body base */
+html,
+body,
+#root {
+  height: 100%;
+}
+body {
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial;
+  background-color: var(--bg);
+  color: var(--strong);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* small helper classes */
+.text-muted {
+  color: var(--muted);
+}
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.75rem;
+  font-weight: 500;
+  border: 1px solid transparent;
+  background-color: var(--primary);
+  color: white;
+}
+.btn-primary:hover {
+  background-color: #ffffff;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+@keyframes gradient-x {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradient-x {
+  background-size: 200% 200%;
+  animation: gradient-x 5s ease infinite;
+}
