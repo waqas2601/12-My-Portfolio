@@ -1,14 +1,15 @@
+import portfolioImg from "../assets/portfolio.png";
+
 export const projects = [
   {
     id: 1,
     title: "Portfolio Website",
     description:
       "A personal portfolio built using React, TailwindCSS, and Framer Motion with smooth animations and responsive design.",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2_OrO_pJKmXEFKNtxbYaY2rWgsJ60InoAPw&s",
+    image: portfolioImg,
     tags: ["React", "Tailwind", "Framer Motion"],
-    github: "https://github.com/yourusername/portfolio",
-    demo: "https://yourportfolio.netlify.app",
+    github: "https://github.com/waqas2601/12-My-Portfolio",
+    demo: "https://my-portfolio-2601.netlify.app/",
   },
   {
     id: 2,
