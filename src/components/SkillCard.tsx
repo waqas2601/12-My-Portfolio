@@ -16,7 +16,7 @@ const SkillCard: React.FC<Props> = ({ skill }) => {
       transition={{ duration: 0.4, ease: "easeOut" }}
       whileHover={{
         scale: 1.08,
-        rotate: 1,
+        // rotate: 1,
         boxShadow: "0px 6px 30px rgba(124,58,237,0.25)",
       }}
       className="relative group p-0.5 rounded-2xl bg-linear-to-tr from-[#0EA5A4] via-[#7C3AED] to-[#EC4899] shadow-sm hover:shadow-md transition-all duration-300"
@@ -25,7 +25,7 @@ const SkillCard: React.FC<Props> = ({ skill }) => {
       <div className="bg-white/80 dark:bg-gray-900/80 backdrop-blur-md rounded-2xl p-6 flex flex-col items-center justify-center h-full transition-all duration-300 group-hover:bg-white dark:group-hover:bg-gray-800">
         {/* Icon */}
         <motion.div
-          animate={{ y: [0, -6, 0] }}
+          animate={{ y: [0, -8, 0] }}
           transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
           className="text-5xl mb-3 group-hover:scale-110 transition-transform duration-300"
         >

@@ -8,7 +8,7 @@ import {
   FaSass,
   FaJsSquare,
 } from "react-icons/fa";
-import { SiTailwindcss, SiTypescript } from "react-icons/si";
+import { SiTailwindcss, SiTypescript, SiNextdotjs } from "react-icons/si";
 
 export interface Skill {
   id: number;
@@ -71,5 +71,11 @@ export const skills: Skill[] = [
     name: "Git & GitHub",
     level: "Intermediate",
     icon: <FaGithub className="text-[#171515]" />,
+  },
+  {
+    id: 10,
+    name: "Next.js",
+    level: "Intermediate",
+    icon: <SiNextdotjs className="text-black dark:text-white" />,
   },
 ];
