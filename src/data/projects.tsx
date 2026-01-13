@@ -57,13 +57,13 @@ export const projects = [
   },
   {
     id: 6,
-    title: "Fake Hacker Terminal",
+    title: "CRUD Dashboard",
     description:
-      "A fun animated fake terminal project built in JS, simulating typing effects and commands.",
+      "A responsive CRUD dashboard that allows users to create, view, update, and delete records through a clean and user-friendly interface.",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd3tF0P9h4DmIW4WtDwFxXP0GofbzDzeaX3w&s",
-    tags: ["JavaScript", "Fun Project"],
-    github: "https://github.com/yourusername/hacker-terminal",
-    demo: "https://fakehacker.netlify.app",
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+    tags: ["React", "Dashboard", "CRUD", "JavaScript"],
+    github: "https://github.com/yourusername/crud-dashboard",
+    demo: "https://crud-dashboard.netlify.app",
   },
 ];
