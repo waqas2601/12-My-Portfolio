@@ -1,69 +1,58 @@
-import portfolioImg from "../assets/portfolio.png";
+import cricketBooking from "../assets/cricket-booking-dashboard.png";
+import snookerDashboard from "../assets/snooker-club-dashboard.png";
+import electricStore from "../assets/electric-store-admin.png";
+import foodDelivery from "../assets/food-delivery-platform.png";
+import transcriptionApp from "../assets/ai-transcription-app.png";
 
 export const projects = [
   {
     id: 1,
-    title: "Portfolio Website",
+    title: "Cricket Net Slots Booking System",
     description:
-      "A personal portfolio built using React, TailwindCSS, and Framer Motion with smooth animations and responsive design.",
-    image: portfolioImg,
-    tags: ["React", "Tailwind", "Framer Motion"],
-    github: "https://github.com/waqas2601/12-My-Portfolio",
-    demo: "https://my-portfolio-2601.netlify.app/",
+      "A full-stack booking platform that allows players to reserve cricket net slots online while providing administrators with a dashboard to manage schedules and bookings.",
+    image: cricketBooking,
+    tags: ["React", "Node.js", "Booking System", "Dashboard"],
+    github: "https://github.com/waqas2601/24-Jeddah-Cricket-Nets",
+    demo: "https://www.jeddahcricketnets.com/",
   },
   {
     id: 2,
-    title: "Restaurant Website",
+    title: "Snooker Club Management System",
     description:
-      "A responsive and modern restaurant website showcasing menu, booking, and customer reviews.",
-    image:
-      "https://img.freepik.com/free-psd/restaurant-landing-page-template-design_23-2149609573.jpg?semt=ais_hybrid&w=740&q=80",
-    tags: ["HTML", "CSS", "Bootstrap"],
-    github: "https://github.com/yourusername/restaurant",
-    demo: "https://restaurant-demo.netlify.app",
+      "An internal admin platform built for a snooker club to manage tables, track ongoing games, and monitor customer sessions digitally.",
+    image: snookerDashboard,
+    tags: ["Next.js", "MongoDB", "Admin Dashboard"],
+    github: "https://github.com/waqas2601/22-Snooker-Club-App",
+    demo: "https://22-snooker-club-app.vercel.app/",
   },
   {
     id: 3,
-    title: "Quiz App",
+    title: "Electric Store Management System",
     description:
-      "An interactive quiz app built with JavaScript that tracks user scores and provides instant feedback.",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxI9D_oQsnHN2IY49wm77w_qSMoQa6r-J8Ew&s",
-    tags: ["JavaScript", "Frontend"],
-    github: "https://github.com/yourusername/quiz-app",
-    demo: "https://quiz-app-demo.netlify.app",
+      "A digital store management platform that helps manage products, invoices, and customers while providing real-time business insights.",
+    image: electricStore,
+    tags: ["React", "Express", "MongoDB", "Dashboard"],
+    github: "https://github.com/waqas2601/23-SRC-Electric",
+    demo: "https://23-src-electric-99xl.vercel.app/",
   },
   {
     id: 4,
-    title: "E-commerce Dashboard",
+    title: "Food Delivery Platform",
     description:
-      "An admin dashboard for managing products, orders, and users with React and TypeScript.",
-    image:
-      "https://s3-alpha.figma.com/hub/file/6280685481/ed1fa82e-b655-4944-91a8-61a2aad86a6e-cover.png",
-    tags: ["React", "TypeScript", "Tailwind"],
-    github: "https://github.com/yourusername/dashboard",
-    demo: "https://dashboard-demo.netlify.app",
+      "A multi-role food delivery system with dashboards for restaurants, customers, and delivery partners including order tracking and menu management.",
+    image: foodDelivery,
+    tags: ["Next.js", "MongoDB", "Full Stack"],
+    github: "https://github.com/waqas2601/15-Food-Delivery-App",
+    demo: "https://15-food-delivery-app-eozv.vercel.app/",
   },
   {
     id: 5,
-    title: "Weather App",
+    title: "Live Speech-to-Text Transcription App",
     description:
-      "A clean and simple weather forecast app using OpenWeather API and async JavaScript.",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThxKA7HvO10GTQBbTTroY57QxgaI-W6kfyUw&s",
-    tags: ["JavaScript", "API", "Frontend"],
-    github: "https://github.com/yourusername/weather-app",
-    demo: "https://weather-demo.netlify.app",
-  },
-  {
-    id: 6,
-    title: "CRUD Dashboard",
-    description:
-      "A responsive CRUD dashboard that allows users to create, view, update, and delete records through a clean and user-friendly interface.",
-    image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
-    tags: ["React", "Dashboard", "CRUD", "JavaScript"],
-    github: "https://github.com/yourusername/crud-dashboard",
-    demo: "https://crud-dashboard.netlify.app",
+      "A web application that converts speech into text in real time using OpenAI Whisper, supporting both live microphone transcription and audio file uploads.",
+    image: transcriptionApp,
+    tags: ["React", "OpenAI", "WebSockets"],
+    github: "https://github.com/waqas2601/25-Transcription",
+    demo: "https://www.onlinetranscriptions.com/",
   },
 ];
