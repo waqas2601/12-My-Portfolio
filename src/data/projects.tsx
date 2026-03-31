@@ -41,7 +41,7 @@ export const projects = [
     description:
       "A multi-role food delivery system with dashboards for restaurants, customers, and delivery partners including order tracking and menu management.",
     image: foodDelivery,
-    tags: ["Next.js", "MongoDB", "Full Stack"],
+    tags: ["Laravel", "MySQL", "Full Stack"],
     github: "https://github.com/waqas2601/15-Food-Delivery-App",
     demo: "https://15-food-delivery-app-eozv.vercel.app/",
   },
