@@ -10,6 +10,7 @@ import {
   FaPhp,
   FaGitAlt,
   FaLaravel,
+  FaDocker,
 } from "react-icons/fa";
 import {
   SiTailwindcss,
@@ -139,5 +140,11 @@ export const skills: Skill[] = [
     name: "GitHub",
     level: "Intermediate",
     icon: <FaGithub className="text-[#171515]" />,
+  },
+  {
+    id: 19,
+    name: "Docker",
+    level: "Intermediate",
+    icon: <FaDocker className="text-[#2496ED]" />,
   },
 ];
