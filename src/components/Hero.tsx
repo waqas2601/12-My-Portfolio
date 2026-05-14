@@ -46,7 +46,7 @@ const Hero: React.FC = () => {
             <span className="text-teal-600">
               <Typewriter
                 words={[
-                  "Front-End Developer",
+                  "Software Developer",
                   "Web Designer",
                   "React Enthusiast",
                   "UI Crafter",
